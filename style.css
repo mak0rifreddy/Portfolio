@@ -273,6 +273,8 @@ ul { list-style: none; }
 }
 
 .scroll-line {
+  display: flex;
+  justify-content: center;
   width: 1px;
   height: 48px;
   background: linear-gradient(to bottom, var(--cyan), transparent);
